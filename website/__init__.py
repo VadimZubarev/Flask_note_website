@@ -2,10 +2,10 @@ from flask import Flask
 from flask_sqlalchemy import SQLAlchemy
 from os import path
 from flask_login import LoginManager
-import os
 
 db = SQLAlchemy()
 DB_NAME = "postgresql://note_website_user:3tS4Ddk3nJUheYTGGtMCtxHO5EdrMvyg@dpg-crjuk2lds78s73eescfg-a.oregon-postgres.render.com/note_website"
+# DB_NAME = "database.db"
 
 def create_app():
     app = Flask(__name__)
