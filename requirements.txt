@@ -1,2 +1,6 @@
 Flask
 Gunicorn
+Flask-SQLAlchemy
+psycopg2
+SQLAlchemy
+Werkzeug
